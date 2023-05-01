@@ -1,0 +1,65 @@
+.button {
+  color: white;
+  border-radius: 5px;
+}
+
+.lightblue {
+  background: var(--color-lightblue);
+  &:hover, &:focus {
+    background: var(--color-darkblue);
+  }
+}
+
+.gray {
+  background: var(--color-gray);
+  color: black;
+  &:hover, &:focus {
+    background: var(--color-darkgray);
+  }
+}
+
+.transparent {
+  background: transparent;
+  border: 0.2px solid gray;
+  color: black;
+  &:hover, &:focus {
+    background: var(--color-lightgray);
+  }
+}
+
+.pink {
+  background: var(--color-pink);
+  &:hover, &:focus {
+    background: var(--color-pink-hover);
+  }
+}
+
+.lightpink {
+  background: var(--color-lightpink);
+  color: var(--color-pink);
+  &:hover, &:focus {
+    background: var(--color-lightpink-hover)
+  }
+}
+
+.green {
+  background: var(--color-green);
+  &:hover, &:focus {
+    background: var(--color-green-hover);
+  }
+}
+
+.small {
+  font-size: var(--font-size-small);
+  padding: 12px 10px;
+}
+
+.medium {
+  font-size: var(--font-size-medium);
+  padding: 12px 20px;
+}
+
+.big {
+  font-size: var(--font-size-big);
+  padding: 12px 25px;
+}

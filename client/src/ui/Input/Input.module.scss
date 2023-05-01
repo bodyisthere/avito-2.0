@@ -1,0 +1,26 @@
+.body {
+  width: 100%;
+  position: relative;
+}
+
+.clear {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  font-size: 22px;
+}
+
+.input {
+  width: 100%;
+  background-color: rgb(229, 229, 229);
+  padding: 10px 25px 10px 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  &--error {
+    border-color: rgb(255, 0, 0);
+    -webkit-animation: error-field 0.8s ease-out both;
+    animation: error-field 0.8s ease-out both;
+  }
+}

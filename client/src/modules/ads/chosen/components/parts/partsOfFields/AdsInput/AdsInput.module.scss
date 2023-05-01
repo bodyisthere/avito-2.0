@@ -1,0 +1,15 @@
+.input-ads {
+  width: var(--input-width);
+  height: var(--input-height);
+  font-size: var(--input-font-size);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  span {
+    font-size: 14px;
+    height: 15%;
+  }
+  input {
+    width: 85%;
+  }
+}

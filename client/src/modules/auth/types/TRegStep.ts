@@ -1,0 +1,1 @@
+export type TRegStep = "reg" | "send-activation-link";

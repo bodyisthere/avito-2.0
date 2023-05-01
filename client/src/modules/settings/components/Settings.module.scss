@@ -1,0 +1,20 @@
+.title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: var(--font-size-giant);
+}
+
+.text {
+  font-size: 16px;
+  i {
+    color: green;
+  }
+}
+
+.section {
+  border-bottom: 2px solid #abadaea4;
+  padding: 20px 0px;
+  &:last-child {
+    border-bottom: 0px;
+  }
+}

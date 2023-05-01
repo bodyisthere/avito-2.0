@@ -1,0 +1,56 @@
+.title {
+  font-size: var(--font-size-giant);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: var(--font-size-big);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: var(--font-size-medium);
+}
+
+.reg {
+  margin-top: 10px;
+  button {
+    font-size: var(--font-size-small);
+    background: transparent;
+    color: #00AAFF;
+  }
+}
+
+.span {
+  opacity: 0;
+  transform: translate(0%, 100%);
+  margin-bottom: 10px;
+  transition: all .2s;
+  &--error {
+    transform: translate(0%, 0%);
+    opacity: 1;
+    color: red;
+  }
+}
+
+.caution {
+  margin-top: 15px;
+  text-align: center;
+  a {
+    color: #00AAFF;
+  }
+}
+
+.passwordRemember {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  label {
+    margin-top: 10px;
+    user-select: none;
+  }
+}

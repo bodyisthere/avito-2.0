@@ -1,0 +1,23 @@
+.body {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 20px 20px 0px 0px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .1s;
+  background: #df0000;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+.text {
+  font-size: 16px;
+  color: white;
+}

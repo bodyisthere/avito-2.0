@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "no-console":"warn",
+    "prefer-const":"warn",
+    "quotes":["warn", "double"],
+    "jsx-quotes":["warn", "prefer-double"],
+    "indent": ["warn", 2],
+    "comma-dangle":["warn", "always-multiline"],
+    "semi":["warn", "always"],
+    
+    //разрешать или запрещать анонимные объявления, типо
+    //export default {
+    //   title: "Button",
+    //   component: Button,
+    // };
+    "import/no-anonymous-default-export": ["error", {
+      "allowArray": true,
+      "allowArrowFunction": true,
+      "allowAnonymousClass": true,
+      "allowAnonymousFunction": true,
+      "allowCallExpression": true,
+      "allowNew": true,
+      "allowLiteral": true,
+      "allowObject": true
+    }],
+    "testing-library/no-debugging-utils": [
+      "warn",
+      {
+        "utilsToCheckFor": {
+          "debug": false,
+          "logRoles": true,
+          "logDOM": true
+        }
+      }
+    ]
+  },
+}
